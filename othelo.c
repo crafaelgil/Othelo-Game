@@ -98,12 +98,12 @@ int asci_to_int(char string[]){
   else return -1;
 }
 int input_place(int player_id, int board[][BOARD_SIZE]){
-  printf("Insert x: ");
+  printf("Insert y: ");
   scanf("%s", char_x);
   x = validate_coordinate(char_x);
   if(x == -1) return location = -1;
   else{
-    printf("Insert y: ");
+    printf("Insert x: ");
     scanf("%s", char_y);
     y = validate_coordinate(char_y);
     if(y == -1) return location = -1;
