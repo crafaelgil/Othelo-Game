@@ -29,6 +29,8 @@ To run the program simply type
 ./othelo.o
 ```
 ## Usage
-Right after being executed the propmt will ask you choose which player (1 or 2) you want to play. Player 1 places o and goes first. Player 2 places x and goes second.
+Right after being executed the prompt will ask you choose which player (1 or 2) you want to play. Player 1 places 'o' and goes first. Player 2 places 'x' and goes second.
 
 To place a 'stone' (o or x) you need to manually enter the x and y coordinate.
+
+At the end of the gamer a .txt file is generated with the history of the game.
