@@ -5,6 +5,13 @@ This program is a simple implementation of the game Othelo to be run from the co
   <img src="./img 2.png" width=43% /> 
 </p>
 
+## Rules of the game
+
+* In Othello, the two colours are Black and White and Black always plays first.
+* The four squares in the middle of the board start with four counters already placed - white top left and bottom right; black top right and bottom left.
+* A player without a move simply passes, and the other player keeps playing pieces until the first player can make a move again.
+
+
 ## Installation
 
 Execute the following command to clone the source code and open the folder called Game-of-Life.
