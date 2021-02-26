@@ -14,20 +14,13 @@ This program is a simple implementation of the game Othelo to be run from the co
 
 ## Installation
 
-Execute the following command to clone the source code and open the folder called Game-of-Life.
-
-```
-git clone git@github.com:crafaelgil/Othelo-Game.git
-```
-Then, inside the directory, execute the following command to compile program:
+Clone this git repository and inside the project's folder type the following comands to compile and execute the program:
 
 ```bash
-gcc -c othelo.c && gcc -o othelo.o othelo.c
+$ gcc -c othelo.c && gcc -o othelo.o othelo.c
+$ ./othelo.o
 ```
-To run the program simply type 
-```bash
-./othelo.o
-```
+
 ## Usage
 Right after being executed the prompt will ask you choose which player (1 or 2) you want to play. Player 1 places 'o' and goes first. Player 2 places 'x' and goes second.
 
